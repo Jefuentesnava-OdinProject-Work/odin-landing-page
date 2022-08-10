@@ -1,6 +1,20 @@
 body {
-    /* add background image, prevent from repearting, and set to size of screen*/
+    /* add background image, prevent from repeating, and set to size of screen*/
     background-image: url("../images/background.jpg");
     background-repeat: no-repeat;  
     background-size: cover;
+}
+
+.navbar, .footer {
+    background-color: #1F2937;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+
+}
+
+.navbar-logo {
+    margin-right: auto;
 }
