@@ -5,6 +5,8 @@ body {
     background-size: cover;
     font-size: 18px;
     color: #e5e7eb;
+    margin: 0px;
+    padding: 0px;
 }
 
 a {
@@ -14,7 +16,7 @@ a {
 
 .navbar, .footer {
     background-color: #1F2937;
-    color: white;
+    color: #F9FAF8;
 }
 
 .navbar {
@@ -35,8 +37,37 @@ a {
     gap: 20px;
 }
 
+.personal-content {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    gap: 5%;
+    padding: 3%;
+}
+
+.name {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: extra-bold;
+}
+
+.button-1 {
+    background-color: #3382F6;
+    font: inherit;
+    color: inherit;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.persona-image {
+    background-color: lightslategray;
+    width: 350px;
+    text-align: center;
+} 
+
 .footer { 
     display: flex;
+    margin-top: auto;
     justify-content: center;
     align-items: center;
 }
