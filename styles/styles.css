@@ -1,9 +1,10 @@
 body {
-    /* add background image, prevent from repeating, and set to size of screen*/
+    /* add background image, prevent from repeating, and set to size of screen
     background-image: url("../images/background.jpg");
     background-repeat: no-repeat;  
-    background-size: cover;
+    background-size: cover; */
     font-size: 18px;
+    background-color: white;
     color: #e5e7eb;
     margin: 0px;
     padding: 0px;
@@ -64,6 +65,32 @@ a {
     width: 350px;
     text-align: center;
 } 
+
+.links {
+    display: flex;
+    gap: 10px;
+}
+
+.links-header {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    color: lightslategray;
+}
+
+.card-img {
+    width: 100px;
+    height: 100px;
+}
 
 .footer { 
     display: flex;
