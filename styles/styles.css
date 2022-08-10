@@ -92,6 +92,20 @@ a {
     height: 100px;
 }
 
+.quote {
+    display:flex;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author-quote {
+    font-style: normal;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
 .footer { 
     display: flex;
     margin-top: auto;
