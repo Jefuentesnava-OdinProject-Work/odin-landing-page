@@ -4,7 +4,6 @@ body {
     background-repeat: no-repeat;  
     background-size: cover; */
     font-size: 18px;
-    background-color: white;
     color: #e5e7eb;
     margin: 0px;
     padding: 0px;
@@ -43,7 +42,7 @@ a {
     justify-content: center;
     background-color: #1F2937;
     gap: 5%;
-    padding: 3%;
+    padding: 2%;
 }
 
 .name {
@@ -102,7 +101,7 @@ a {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    padding: 3% 0%;
+    padding: 2% 0%;
 }
 
 .author-quote {
@@ -112,6 +111,27 @@ a {
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3382F6;
+    margin:3% 25%;
+    padding: 25px;
+    gap: 25%;
+    font-weight: bold;
+}
+
+.contact-right {
+    background-color: #3382F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 6px;
+    font-size: inherit;
+    color: inherit;
+    padding: 5px 10px;
+    font-weight: bold;
 }
 
 .footer { 
